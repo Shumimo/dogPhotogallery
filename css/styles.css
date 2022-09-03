@@ -21,10 +21,14 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
 }
 
 .gallery img{
     width: 100%;
     max-width: 350px;
     height: 300px;
+    margin: 5px;
+    border-radius: 25px;
 }
