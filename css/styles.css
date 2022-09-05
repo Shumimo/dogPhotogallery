@@ -22,14 +22,17 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
     align-items: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 1400px;
 }
 
 .gallery img{
     width: 100%;
     max-width: 350px;
     height: 300px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 25px;
+    object-fit: cover;
 }
